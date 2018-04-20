@@ -1,0 +1,11 @@
+﻿IMPORTANT: Ensure that the following files have been updated in http://internalcdn/octopus:
+
+EventSubscriptions.json
+OctopusDeploymentPostSample.json
+OctopusDeploymentWebhookSample.json
+
+Install:
+OctopusWebhooks.exe install -displayname "Octopus Webhooks" -servicename "OctopusWebhooks" --localservice --autostart -description "Octopus event subscriptions and their desired targets"
+
+Uninstall:
+OctopusWebhooks.exe uninstall -servicename OctopusWebhooks -instance OctopusWebhooks

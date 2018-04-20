@@ -1,0 +1,8 @@
+source https://www.nuget.org/api/v2
+
+nuget Freya prerelease
+nuget Microsoft.Owin.SelfHost
+nuget FSharp.Data
+nuget Suave
+nuget FParsec
+nuget Topshelf.FSharp

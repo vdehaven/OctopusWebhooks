@@ -1,0 +1,14 @@
+{
+    "ReleaseId": "Releases-0",
+    "EnvironmentId": "Environments-0",
+    "TenantId": "Tenants-0",
+    "SkipActions": [],
+    "QueueTime": null,
+    "QueueTimeExpiry": null,
+    "FormValues": {},
+    "ForcePackageDownload": false,
+    "UseGuidedFailure": false,
+    "SpecificMachineIds": [],
+    "ExcludedMachineIds": [],
+    "ForcePackageRedeployment": false
+}

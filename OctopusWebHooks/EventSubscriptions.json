@@ -1,0 +1,211 @@
+﻿{
+  "Subscriptions": [
+    {
+      "Events": [
+        {
+          "Category": "DeploymentSucceeded",
+          "Channel": {
+            "Name": "Release",
+            "Id": "Channels-83"
+          },
+          "Enabled": "true",
+          "Notify": {
+            "Emails": [ "devops@mycompany.com", "jsmith@mycompany.com" ],
+            "Slack": [
+              {
+                "Name": "CustDev",
+                "Url": "https://hooks.slack.com/services/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"
+              }
+            ]
+          },
+          "Project": {
+            "Name": "MainApp - CustDev",
+            "Id": "Projects-21"
+          },
+          "Tenant": {
+            "Name": "Staging",
+            "Id": "Tenants-203"
+          }
+        },
+        {
+          "Category": "DeploymentSucceeded",
+          "Channel": {
+            "Name": "Release",
+            "Id": "Channels-22"
+          },
+          "Enabled": "false",
+          "Notify": {
+            "Emails": [ "devops@mycompany.com", "jsmith@mycompany.com" ],
+            "Slack": [
+              {
+                "Name": "CustDev",
+                "Url": "https://hooks.slack.com/services/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"
+              }
+            ]
+          },
+          "Project": {
+            "Name": "MainApp - CustDev Utility",
+            "Id": "Projects-42"
+          },
+          "Tenant": {
+            "Name": "Staging",
+            "Id": "Tenants-203"
+          }
+        },
+        {
+          "Category": "DeploymentSucceeded",
+          "Channel": {
+            "Name": "Release",
+            "Id": "Channels-22"
+          },
+          "Enabled": "false",
+          "Notify": {
+            "Emails": [ "devops@mycompany.com", "saas@mycompany.com" ],
+            "Slack": [
+              {
+                "Name": "SaaSy",
+                "Url": "https://hooks.slack.com/services/T4RF557QW/C4TZ4F23V/SsUJGkmAmd53D6j9Sv6l4Eru"
+              }
+            ]
+          },
+          "Project": {
+            "Name": "MainApp - Utility",
+            "Id": "Projects-41"
+          },
+          "Tenant": {
+            "Id": "Tenants-203",
+            "Name": "Staging"
+          }
+        }
+      ],
+      "DeploymentSchemes": [
+        {
+          "Environment": {
+            "Id": "Environments-62",
+            "Name": "Rackspace - Production",
+            "Tenants": [
+              {
+                "Name": "Rackspace - Web 1",
+                "Id": "Tenants-201"
+              },
+              {
+                "Name": "Rackspace - Web 2",
+                "Id": "Tenants-202"
+              },
+              {
+                "Name": "Rackspace - Web 3",
+                "Id": "Tenants-647"
+              }
+            ]
+          }
+        },
+        {
+          "Environment": {
+            "Id": "Environments-3",
+            "Name": "QA Servers",
+            "Tenants": [
+              {
+                "Name": "Support",
+                "Id": "Tenants-2"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Events": [
+        {
+          "Category": "DeploymentSucceeded",
+          "Channel": {
+            "Name": "Release",
+            "Id": "Channels-22"
+          },
+          "Enabled": "true",
+          "Notify": {
+            "Email": [ "devops@mycompany.com" ],
+            "Slack": [
+              {
+                "Name": "SaaS",
+                "Url": "https://hooks.slack.com/services/T4RF557QW/C4TZ4F23V/SsUJGkmAmd53D6j9Sv6l4Eru"
+              }
+            ]
+          },
+          "Project": {
+            "Name": "MainApp",
+            "Id": "Projects-1"
+          },
+          "Tenant": {
+            "Name": "Rackspace - Web 3",
+            "Id": "Tenants-647"
+          }
+        }
+      ],
+      "DeploymentSchemes": [
+        {
+          "Environment": {
+            "Id": "Environments-41",
+            "Name": "On-Premises",
+            "Tenants": [
+              {
+                "Name": "15209-CINCIMainAppTRAIN",
+                "Id": "Tenants-734"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Events": [
+        {
+          "Category": "DeploymentSucceeded",
+          "Channel": {
+            "Name": "Release",
+            "Id": "Channels-83"
+          },
+          "Enabled": "false",
+          "Notify": {
+            "Emails": [ "gdavis@mycompany.com" ],
+            "Slack": [
+              {
+                "Name": "DevOps",
+                "Url": "https://hooks.slack.com/services/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"
+              },
+              {
+                "Name": "SaaS",
+                "Url": "https://hooks.slack.com/services/T4RF557QW/C4TZ4F23V/SsUJGkmAmd53D6j9Sv6l4Eru"
+              },
+              {
+                "Name": "CustDev",
+                "Url": "https://hooks.slack.com/services/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"
+              }
+            ]
+          },
+          "Project": {
+            "Name": "MainApp - CustDev",
+            "Id": "Projects-21"
+          },
+          "Tenant": {
+            "Id": "Tenants-203",
+            "Name": "Staging"
+          }
+        }
+      ],
+      "DeploymentSchemes": [
+        {
+          "Environment": {
+            "Id": "Environments-41",
+            "Name": "On-Premises",
+            "Tenants": [
+              {
+                "Name": "George Davis - Desktop",
+                "Id": "Tenants-810"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

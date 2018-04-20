@@ -1,0 +1,83 @@
+{
+  "Timestamp": "2018-01-15T23:04:14.1276673+00:00",
+  "EventType": "SubscriptionPayload",
+  "Payload": {
+    "ServerUri": "https://octopusserver.com",
+    "ServerAuditUri": "https://octopusserver.com/#/configuration/audit?projects=Projects-21&environments=Environments-61&eventCategories=DeploymentSucceeded&from=2018-01-15T23%3a03%3a43.%2b00%3a00&to=2018-01-15T18%3a04%3a14.-05%3a00",
+    "BatchProcessingDate": "2018-01-15T18:04:14.0794211-05:00",
+    "Subscription": {
+      "Id": "Subscriptions-1",
+      "Name": "Successful deployment of MainApp to Staging",
+      "Type": 0,
+      "IsDisabled": false,
+      "EventNotificationSubscription": {
+        "Filter": {
+          "Users": [],
+          "Projects": [ "Projects-21" ],
+          "Environments": [ "Environments-61" ],
+          "EventGroups": [],
+          "EventCategories": [ "DeploymentSucceeded" ],
+          "Tenants": [],
+          "Tags": [],
+          "DocumentTypes": []
+        },
+        "EmailTeams": [],
+        "EmailFrequencyPeriod": "01:00:00",
+        "EmailPriority": 0,
+        "EmailDigestLastProcessed": null,
+        "EmailDigestLastProcessedEventAutoId": null,
+        "EmailShowDatesInTimeZoneId": "Eastern Standard Time",
+        "WebhookURI": "http://localhost:8080/cdu",
+        "WebhookTeams": [],
+        "WebhookTimeout": "00:00:10",
+        "WebhookLastProcessed": "2018-01-15T23:03:43.8541576+00:00",
+        "WebhookLastProcessedEventAutoId": 56256
+      },
+      "Links": { "Self": {} }
+    },
+    "Event": {
+      "Id": "Events-56971",
+      "RelatedDocumentIds": [ "Deployments-9938", "Projects-21", "Releases-7615", "Environments-61", "Tenants-203", "ServerTasks-37957", "Channels-83", "ProjectGroups-21" ],
+      "Category": "DeploymentSucceeded",
+      "UserId": "users-system",
+      "Username": "system",
+      "IdentityEstablishedWith": "Unknown",
+      "Occurred": "2018-01-15T23:03:50.7443636+00:00",
+      "Message": "Deploy to Staging for Staging Machine (#3) succeeded for MainApp - CustDev release 2018.1.2 to Staging for Staging Machine",
+      "MessageHtml": "<a href='#/deployments/Deployments-9938'>Deploy to Staging for Staging Machine (#3)</a> succeeded  for <a href='#/projects/Projects-21'>MainApp - CustDev</a> release <a href='#/releases/Releases-7615'>2018.1.2</a> to <a href='#/environments/Environments-61'>Staging</a> for <a href='#/tenants/Tenants-203'>Staging</a>",
+      "MessageReferences": [
+        {
+          "ReferencedDocumentId": "Deployments-9938",
+          "StartIndex": 0,
+          "Length": 58
+        },
+        {
+          "ReferencedDocumentId": "Projects-21",
+          "StartIndex": 74,
+          "Length": 33
+        },
+        {
+          "ReferencedDocumentId": "Releases-7615",
+          "StartIndex": 116,
+          "Length": 16
+        },
+        {
+          "ReferencedDocumentId": "Environments-61",
+          "StartIndex": 136,
+          "Length": 19
+        },
+        {
+          "ReferencedDocumentId": "Tenants-203",
+          "StartIndex": 160,
+          "Length": 19
+        }
+      ],
+      "Comments": null,
+      "Details": null,
+      "Links": { "Self": {} }
+    },
+    "BatchId": "227e46bb-83f6-4d21-9db4-89d28c5442cb",
+    "TotalEventsInBatch": 1,
+    "EventNumberInBatch": 1
+  }
+}
