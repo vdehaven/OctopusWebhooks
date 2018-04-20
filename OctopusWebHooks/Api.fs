@@ -1,4 +1,4 @@
-﻿// Respond to Octopus event subscriptions in http://internalcdn/octopus/EventSubscriptions.json and deploy to their desired targets.
+﻿// Respond to Octopus event subscriptions in EventSubscriptions.json and deploy to their desired targets.
 namespace DevOps.Octopus.WebHooks
 
 open FSharp.Data
