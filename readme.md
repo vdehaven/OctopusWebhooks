@@ -13,7 +13,7 @@ The structure of EventSubscriptions.json follows.  All `Name` elements are used 
             - `Name`
             - `Id`
         - `Enabled`: Toggles this trigger
-        - `Notify`: Notification settings for failuresm
+        - `Notify`: Notification settings for failures
             - `Emails`: Array of email addresses
             - `Slack`: Array of Slack channels to notify on failure
                 - `Name`: Channel name
@@ -49,5 +49,3 @@ NOTE: In `Api.fs`:
 - `octopusRoot` is set to your Octopus server's URL
 - The from address in `msg` is set
 - The mail server in `client` is set
-
-This repository is made available with no warranties as to performance, applicability, or reliability.
